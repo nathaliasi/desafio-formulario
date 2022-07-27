@@ -22,7 +22,7 @@ type FormProviderProps = {
 };
 
 const initialData: State = {
-  CurrentStep: 0 | 1 | 2
+  CurrentStep: 0 
 }
 
 //context
@@ -39,6 +39,7 @@ const FormContext = createContext<ContextType | undefined>(undefined);
       default:
         return state;
   }
+  
 }
 
 //provider

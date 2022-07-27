@@ -4,8 +4,20 @@ export const Container = styled.div `
   a{
     text-decoration: none;
     color: #000;
+    
   }
 
+  .link{
+    background: #000;
+  }
+
+  .link-active{
+    color: #00C8FF;
+  }
+  
+
+
+  
 `;
 
 export const Info = styled.div `
@@ -19,7 +31,10 @@ export const Info = styled.div `
 
 `;
 
-export const Title = styled.div `
+export const Title = styled.div<{active:boolean;}> `
+
+
+
 
 
 `;
